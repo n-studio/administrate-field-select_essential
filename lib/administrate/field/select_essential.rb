@@ -36,6 +36,10 @@ module Administrate
         options.fetch(:multiple, false)
       end
 
+      def size
+        options.fetch(:size)
+      end
+
       private
 
       def convert_to_array(item)

@@ -23,6 +23,7 @@ ATTRIBUTE_TYPES = [
     choices: %w[One Two Three],
     include_blank: 'Choose An Option',
     multiple: true,
+    size: 4,
   ),
 ]
 ```
